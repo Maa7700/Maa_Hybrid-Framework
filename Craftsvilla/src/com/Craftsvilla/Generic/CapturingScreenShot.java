@@ -36,7 +36,6 @@ public class CapturingScreenShot implements ITestListener
 			EventFiringWebDriver event=new EventFiringWebDriver(BaseTest.driver);
 			File src=event.getScreenshotAs(OutputType.FILE);
 			FileUtils.copyFile(src,new File(".//ScreenShots//"+Methodname+".png"));
-			
 		}
 		catch(Exception e) 
 		{

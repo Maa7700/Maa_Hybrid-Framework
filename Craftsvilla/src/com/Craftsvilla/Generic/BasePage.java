@@ -11,7 +11,7 @@ import org.testng.Assert;
 public class BasePage {
 	
 	public WebDriver driver=null;
-	public Logger log=Logger.getLogger("Logs");
+	public Logger log=Logger.getLogger(BasePage.class);
 	
 	public BasePage(WebDriver Browser)
 	{
@@ -76,6 +76,13 @@ public void mousehover(WebElement Ele)
 	
 	
 }
+
+String CHROME_KEY="webdriver.chrome.driver";
+	String CHROME_VALUE=".//Driver//chromedriver.exe";
+	String GECKO_KEY="webdriver.gecko.driver";
+	String GECKO_VALUE=".//Driver//geckodriver.exe";
+	String APP_URL="https://www.craftsvilla.com";
+	String FILE_PATH=".//InputData//Credentials.xslx";
 
 }
 

@@ -2,6 +2,7 @@ package com.Craftsvilla.POMPages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -13,6 +14,8 @@ public class HomePage extends BasePage
   
 	@FindBy(xpath="//input[@id='searchval']")
 	private WebElement SearchValue;
+	
+	
 	
 	@FindBy(xpath="//a[@id='cartCount']")
 	private WebElement Kart;

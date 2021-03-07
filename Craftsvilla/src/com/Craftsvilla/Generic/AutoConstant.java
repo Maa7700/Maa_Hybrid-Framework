@@ -14,3 +14,4 @@ public interface AutoConstant {
 
 /// In interface all methods are Public and Abstract by default and also all Variables are public and Final.
 /// Other class always Implements Interface.
+///Maaa Class
